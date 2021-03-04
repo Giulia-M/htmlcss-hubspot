@@ -49,4 +49,41 @@ a {
 .sec-hero {
     background: #fff4ef url(img/jumbotron.png) no-repeat 65% 55%;
     height: 500px;
+    /*  */
 }
+
+
+.prato-verde {
+    background-color: #afebe4;
+    padding:40px;
+    border-top: 2px solid #33475b;
+    border-bottom: 2px solid #33475b;
+}
+
+/* sec-banner */
+.sec-banner {
+    background-color: #f4f9fd;
+}
+
+.img-cubo {
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.title-banner, .description-text {
+    text-align: center;
+    color: #33475b;
+}
+
+.title-banner {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.description-text {
+    font-size: 20px;
+    padding-bottom: 30px;
+
+}
+ 
