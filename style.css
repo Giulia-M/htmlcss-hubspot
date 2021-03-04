@@ -3,3 +3,46 @@
     margin: 0;
     padding: 0;
 }
+nav {
+    background-color:#f4f9fd;
+}
+.sec-centered {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #33475b;
+    display: inline-block;
+    padding: 30px 10px;
+}
+.width-30, .col-logo {
+    width: 30%;
+}
+.float-left {
+    float: left;
+}
+
+.width-70, .menu{
+    width: 70%;
+    text-align: right;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-logo {
+    padding-left: 10px;
+}
+.logo-hubs {
+    display: inline-block;
+    margin:24px 0;
+}
+
+/*  */
