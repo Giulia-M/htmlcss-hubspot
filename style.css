@@ -144,13 +144,18 @@ main {
 .text-with-hr h3 {
     display: inline-block;
 }
-.text-with-hr hr {
+.text-with-hr::after {
+    background-color: #000;
+    content: "";
     display: inline-block;
-    width: 50%;
+    height: 1px;
     vertical-align: middle;
-    margin: 0 30px;
-    background-color: #33475b;
+    width: 50%;
+    margin-left: 50px;
+    
 }
+
+
 
 /* sec-home-product */
 
@@ -161,16 +166,8 @@ main {
 .col-opt-sales {
     margin: 0 4.5%;
 }
-.marketing-content {
-    /* margin: auto;
-    width: 180px; */
-    /* background-color: yellow; */
-}
-.marketing-img-wrapper {
-    /* width: 180px;
-    margin: auto;  */
-    /* background-color: turquoise; */
-}
+
+
 .imm-box {
     width: 80px;
     margin: auto;
@@ -193,13 +190,16 @@ main {
     /* background-color: deeppink; */
     padding: 10px 45px;
 }
-.special-hr {
-    padding: 50px 20px 20px;
+.p-wrapper::after {
+    height: 1px;
+    content: "";
+    background-color: #33475b;
+    width: 85%;
+    display: inline-block;
+    margin-top: 50px;
 }
 
-.special-hr hr {
-    background-color: #33475b;
-}
+
 
 .h3-feature-wrapper h3 {
     text-align: center;
