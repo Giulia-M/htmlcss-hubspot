@@ -14,25 +14,31 @@ nav {
     width: 1024px;
     margin: 0 auto;
 }
+/* .row ul.nav-main-list > li, .row ul.nav-login > li, ul.menu > li */
 
-li {
+.nav-item {
     display: inline-block;
     list-style: none;
 }
+ 
+/* li {
+    display: inline-block;
+    list-style: none;
+} */
 a {
     text-decoration: none;
     color: #33475b;
     display: inline-block;
     padding: 30px 10px;
 }
-.width-30, .col-logo {
+.nav-main-list, .col-logo {
     width: 30%;
 }
 .float-left {
     float: left;
 }
 
-.width-70, .menu{
+.nav-login, .menu{
     width: 70%;
     text-align: right;
 }
@@ -142,13 +148,13 @@ main {
     width: 50%;
     vertical-align: middle;
     margin: 0 30px;
-    color: #33475b;
+    background-color: #33475b;
 }
 
 /* sec-home-product */
-.red {
+/* .red {
     background-color:violet;
-}
+} */
 .col-opt-marketing, .col-opt-sales, .col-opt-service {
     width: 30.3%;
 }
@@ -158,17 +164,17 @@ main {
 .marketing-content {
     margin: auto;
     width: 180px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .marketing-img-wrapper {
     width: 180px;
     margin: auto; 
-    background-color: turquoise;
+    /* background-color: turquoise; */
 }
 .imm-box {
     width: 80px;
     margin: auto;
-    background-color: teal;
+    /* background-color: teal; */
     display: block;
     padding-top: 10px;
 }
@@ -183,7 +189,23 @@ main {
     text-align: center;
     color: #33475b;
     font-size: 13px;
-    background-color: deeppink;
+    /* background-color: deeppink; */
     width: 300px;
     margin: auto;
+}
+.special-hr {
+    padding: 50px 20px 20px;
+}
+
+.special-hr hr {
+    background-color: #33475b;
+}
+
+.marketing-img-wrapper h3 {
+    text-align: center;
+    padding-top: 30px;
+    color: #33475b;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
 }
