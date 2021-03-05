@@ -6,6 +6,7 @@
 }
 nav {
     background-color:#f4f9fd;
+    height: 82px;
 }
 .nav-menu {
     background-color: white;
@@ -22,11 +23,12 @@ nav {
 }
  
 
-a {
+.link-item-nav {
     text-decoration: none;
     color: #33475b;
     display: inline-block;
-    padding: 30px 10px;
+    line-height: 82px;
+    vertical-align: middle;
 }
 .nav-main-list, .col-logo {
     width: 30%;
@@ -73,6 +75,7 @@ a {
 } */
 main {
     background-color: #f4f9fd;
+    padding-bottom: 50px;
 }
 .img-cubo {
     width: 300px;
@@ -132,6 +135,7 @@ main {
     font-weight: 600;
     display: inline-block;
     margin:10px auto;
+    text-decoration: none;
 }
 .text-with-hr {
     padding: 20px 0;
@@ -152,6 +156,7 @@ main {
 
 .col-opt-marketing, .col-opt-sales, .col-opt-service {
     width: 30.3%;
+    padding-bottom: 20px;
 }
 .col-opt-sales {
     margin: 0 4.5%;
@@ -214,3 +219,7 @@ main {
     font-size: 13px;
 }
 
+/* sec-learn-and-grow */
+.sec-learn-and-grow h2, .sec-learn-and-grow p{
+    text-align: center;
+}
