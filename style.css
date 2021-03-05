@@ -2,9 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Bree Serif', serif;
 }
 nav {
     background-color:#f4f9fd;
+}
+.nav-menu {
+    background-color: white;
 }
 .sec-middle {
     width: 1024px;
@@ -61,10 +65,12 @@ a {
 }
 
 /* sec-banner */
-.sec-banner, .sec-learn-more {
+/* .sec-banner, .sec-learn-more, .sec-home-product {
+    background-color: #f4f9fd;
+} */
+main {
     background-color: #f4f9fd;
 }
-
 .img-cubo {
     width: 300px;
     display: block;
@@ -90,6 +96,9 @@ a {
 .white {
     background-color: white;
 }
+.sec-learn-more {
+    margin-bottom: 56px;
+}
 .img-libro {
     width: 190px;
     display: block;
@@ -98,6 +107,8 @@ a {
 .content {
     width: 70%;
     color: #33475b;
+    padding: 40px 0;
+
 }
 .col-img {
     width: 30%;
@@ -121,6 +132,7 @@ a {
 }
 .text-with-hr {
     padding: 20px 0;
+
 }
 .text-with-hr h3 {
     display: inline-block;
@@ -130,4 +142,48 @@ a {
     width: 50%;
     vertical-align: middle;
     margin: 0 30px;
+    color: #33475b;
+}
+
+/* sec-home-product */
+.red {
+    background-color:violet;
+}
+.col-opt-marketing, .col-opt-sales, .col-opt-service {
+    width: 30.3%;
+}
+.col-opt-sales {
+    margin: 0 4.5%;
+}
+.marketing-content {
+    margin: auto;
+    width: 180px;
+    background-color: yellow;
+}
+.marketing-img-wrapper {
+    width: 180px;
+    margin: auto; 
+    background-color: turquoise;
+}
+.imm-box {
+    width: 80px;
+    margin: auto;
+    background-color: teal;
+    display: block;
+    padding-top: 10px;
+}
+.marketing-img-wrapper h2 {
+    text-align: center;
+    padding-top: 30px;
+    color: #33475b;
+    font-weight: 600;
+    font-size: 22px;
+}
+.marketing-p-wrapper {
+    text-align: center;
+    color: #33475b;
+    font-size: 13px;
+    background-color: deeppink;
+    width: 300px;
+    margin: auto;
 }
