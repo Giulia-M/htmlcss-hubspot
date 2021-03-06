@@ -233,6 +233,9 @@ main {
 .container-summary {
     background-color: #00b6ad;
     margin-right: -1px;
+    margin-bottom: -1px;
+    overflow: hidden;
+
 }
 .sec-learn-and-grow h2, .sec-learn-and-grow p{
     text-align: center;
@@ -316,6 +319,7 @@ main {
 
 .cont-ctas-grey {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .ctas-grey {
@@ -326,4 +330,8 @@ main {
     padding: 5px 13px;
     text-align: center;
     font-size: 13px;
+}
+.loghi-social {
+    position: relative;
+    left: -38px;
 }
