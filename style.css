@@ -9,9 +9,7 @@
     color: #33475b;
 }
 nav {
-    background-color:#f4f9fd;
-    height: 82px;
-   
+    background-color:#f4f9fd;   
 }
 .height-nav {
     height: 82px;
@@ -28,6 +26,7 @@ nav {
 .nav-item {
     display: inline-block;
     padding-right: 10px;
+    vertical-align: middle;
 }
 
 
