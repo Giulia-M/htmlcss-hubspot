@@ -23,6 +23,7 @@ nav {
 
 .nav-item {
     display: inline-block;
+    padding: 0 10px;
 }
 
 
@@ -33,7 +34,27 @@ nav {
     font-size: 13px;
     color:#cbd6e2;
 }
+#nav-global-icon:before {
+    content: "\01F310";  
+}
+#nav-global-icon {
+    padding-right: 30px;
+}
+.distanza {
+    margin-right: 10px;
+}
 
+.border-english-right {
+    border-right:1px solid #32495b;
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.nav-item span {
+    vertical-align: middle;
+}
 * a {
     text-decoration: none;
 }
@@ -42,11 +63,11 @@ nav {
     display: inline-block;
     line-height: 82px;
     vertical-align: middle;
-
 }
 .nav-main-list, .col-logo {
     width: 30%;
 }
+
 .float-left {
     float: left;
 }
@@ -70,9 +91,8 @@ nav {
 
 /* sectione-hero */
 .sec-hero {
-    background: #fff4ef url(img/jumbotron.png) no-repeat 65% 55%;
-    height: 500px;
-    /*  */
+    background: #fff4ef url(img/jumbotron.png) no-repeat 63% 9%;
+    height: 600px;
 }
 
 
@@ -334,4 +354,10 @@ main {
 .loghi-social {
     position: relative;
     left: -38px;
+}
+div.lingue ul li {
+    display: inline-block;
+}
+div.lingue ul {
+    text-align: center;
 }
