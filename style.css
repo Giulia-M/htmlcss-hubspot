@@ -28,7 +28,6 @@ nav {
 .nav-item {
     display: inline-block;
     padding-right: 10px;
-    /* vertical-align: middle; */
 }
 
 
@@ -51,7 +50,7 @@ nav {
 }
 .fa-search {
     display: inline-block;
-    line-height: 82px;
+    line-height: 72px;
     vertical-align: middle;
 }
 #log-in-button {
@@ -60,7 +59,6 @@ nav {
     padding: 3px 3px;
     border-radius: 5px;
     display: inline-block;
-    /* vertical-align: middle; */
     margin: 25px 0;
 }
 .button-orange {
@@ -69,7 +67,6 @@ nav {
     padding: 3px 3px;
     background-color: #fe775a;
     display: inline-block;
-    /* line-height: 82px; */
     vertical-align: middle;
     border-radius: 5px;
 }
@@ -82,9 +79,6 @@ nav {
     vertical-align: middle;  
 }
 
-.nav-item span {
-    vertical-align: middle;
-}
 * a {
     text-decoration: none;
 }
@@ -92,14 +86,11 @@ nav {
     color: #33475b;
     display: inline-block;
     line-height: 72px;
-    vertical-align: middle;
-
 }
 
 .nav-main-list, .col-logo {
     width: 30%;
     display: inline-block;
-    vertical-align: middle;
 }
 
 .float-left {
