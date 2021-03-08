@@ -267,7 +267,6 @@ main {
     text-align: center;
     color: #33475b;
     font-size: 13px;
-    /* background-color: deeppink; */
     padding: 10px 45px;
 }
 .p-wrapper::after {
@@ -352,7 +351,7 @@ main {
 }
 .home-customers-logo-grid {
     width: 60%;
-    margin-left: 158px;
+    margin-left: 24%;
 }
 .home-customers-logo-wrapper {
     width: 21%;
@@ -379,19 +378,14 @@ main {
 }
 .start-growing-img-wrapper {
     width: 60%;
-    height: 350px;
 }
 .img-woman-wrapper {
-    position: relative;
-    height: 350px;
+    text-align: right;
 }
 .img-woman {
     object-fit: contain;
     width: 350px;
-    height: 350px;
-    position: absolute;
-    top: 0;
-    right: 0;
+    height: 350px;    
 }
 .start-growing-text-wrapper h2 {
     color: #33475b;
