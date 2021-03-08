@@ -356,8 +356,6 @@ main {
 }
 .home-customers-logo-wrapper {
     width: 25%;
-    height: 110px;
-    padding: 20px 0;
 }
 .home-customers-logo {
     width: 110px;
@@ -409,6 +407,9 @@ main {
     background-color:#32495b;
     padding: 48px 32px;
 }
+.nav-footer ul li {
+    padding-bottom: 7px;
+} 
 .nav-footer {
     width: 25%;
 }
