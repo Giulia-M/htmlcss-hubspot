@@ -349,11 +349,10 @@ main {
 }
 .home-customers-text-wrapper {
     width: 16%;
-    margin-left: 70px;
 }
 .home-customers-logo-grid {
     width: 60%;
-    /* margin-left: 78px; */
+    margin-left: 158px;
 }
 .home-customers-logo-wrapper {
     width: 21%;
@@ -369,10 +368,6 @@ main {
     font-size: 45px;
     color:#33475b;
     padding-bottom: 10px;
-}
-.row-right {
-    position: relative;
-    left: 133px;
 }
 
 /* VII row  */
