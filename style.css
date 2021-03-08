@@ -296,18 +296,18 @@ main {
 /* sec-learn-and-grow */
 .container-summary {
     background-color: #00b6ad;
-    margin-right: -1px;
-    margin-bottom: -1px;
-    overflow: hidden;
+    /* margin-right: -1px;
+    margin-bottom: -1px; */
+    /* overflow: hidden; */
     padding-top: 30px;
     padding-bottom: 50px;
 
 }
 .container-grid {
     background-color: #00b6ad;
-    margin-right: -1px;
+    /* margin-right: -1px;
     margin-bottom: -1px;
-    overflow: hidden;
+    overflow: hidden; */
     padding-top: 10px;
 }
 .sec-learn-and-grow h2, .sec-learn-and-grow p{
@@ -328,14 +328,18 @@ main {
 div.img-grid-item ~ h2 {
     font-size: 32px;
 }  
+.n-sign {
+    vertical-align: middle;
+}
 div.img-grid-item ~ h2::after {
     content: "+";
-    font-size: 13px;
+    font-size: 20px;
+    vertical-align: middle;
 }
 
-.margin-negativo {
+/* .margin-negativo {
     overflow: hidden;
-}
+} */
 .content-grid-item h2, .content-grid-item p {
     color: #fff;
     padding: 7px 0;
@@ -343,8 +347,26 @@ div.img-grid-item ~ h2::after {
 .grid-item {
     width: 25%;
     padding: 50px 0px;
-    border-right: 1px solid white;
-    border-bottom:1px solid white;
+    border: 1px solid white;
+}
+
+.grid-item:nth-child(4),
+.grid-item:nth-child(8) {
+    border-right: none;
+}
+/* .grid-item:nth-child(1n+1) {
+    border-bottom: none;
+} */
+.grid-item:nth-child(1),
+.grid-item:nth-child(5) {
+    border-left: none;
+}
+.grid-item:nth-child(-n+4) {
+    border-top: none;
+}
+
+.grid-item:nth-child(-n+8) {
+    border-bottom:none;
 }
 
 .content-grid-item p,
