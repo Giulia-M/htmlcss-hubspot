@@ -348,14 +348,15 @@ main {
     padding-top: 40px;
 }
 .home-customers-text-wrapper {
-    width: 17%;
+    width: 16%;
+    margin-left: 70px;
 }
 .home-customers-logo-grid {
-    width: 70%;
-    margin-left: 90px;
+    width: 60%;
+    /* margin-left: 78px; */
 }
 .home-customers-logo-wrapper {
-    width: 25%;
+    width: 21%;
 }
 .home-customers-logo {
     width: 110px;
@@ -365,9 +366,13 @@ main {
     margin: auto;
 }
 .home-customers-text-wrapper h2 {
-    font-size: 35px;
+    font-size: 45px;
     color:#33475b;
     padding-bottom: 10px;
+}
+.row-right {
+    position: relative;
+    left: 133px;
 }
 
 /* VII row  */
