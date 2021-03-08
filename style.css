@@ -396,6 +396,10 @@ main {
     color: #33475b;
     padding: 15px 0;
 }
+.start-growing-text-wrapper p:nth-last-of-type(1) {
+    font-size: 10px;
+}
+
 /* VIII row-footer  */
 .hsg-footer {
     background-color:#32495b;
