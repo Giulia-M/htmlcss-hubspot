@@ -140,9 +140,7 @@ nav {
 }
 
 /* sec-banner */
-/* .sec-banner, .sec-learn-more, .sec-home-product {
-    background-color: #f4f9fd;
-} */
+
 main {
     background-color: #f4f9fd;
     padding-bottom: 50px;
@@ -317,6 +315,24 @@ main {
     color: #fff;
     padding-bottom: 20px;
 }
+.sec-learn-and-grow h2 {
+    font-size: 32px;
+}
+.sec-learn-and-grow p {
+    line-height: 15px;
+}
+.p-container {
+    width: 84%;
+    margin: auto;
+}
+div.img-grid-item ~ h2 {
+    font-size: 32px;
+}  
+div.img-grid-item ~ h2::after {
+    content: "+";
+    font-size: 13px;
+}
+
 .margin-negativo {
     overflow: hidden;
 }
