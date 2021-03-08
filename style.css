@@ -437,7 +437,32 @@ main {
 }
 div.lingue ul li {
     display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 15px;
 }
 div.lingue ul {
     text-align: center;
+}
+.lingue hr {
+    background-color: #fff; 
+    height: .1px; 
+    border: 0;
+}
+
+.footer-logo {
+    width: 30%;
+}
+#color-copyright {
+    color: #fff;
+}
+.footer-copyright {
+    text-align: right;
+    width: 70%;
+}
+.footer-copyright ul li  {
+    display: inline-block;
+    padding: 0 15px;
+}
+.row-foot-copyright {
+    padding-top: 28px;
 }
