@@ -175,6 +175,17 @@ main {
 .sec-learn-more {
     margin-bottom: 56px;
 }
+.spunta-orange {
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #fe775a;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+}
 .img-libro {
     width: 190px;
     display: block;
