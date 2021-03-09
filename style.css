@@ -90,7 +90,10 @@ nav {
 .logo-hubs {
     display: inline-block;
 }
-
+main {
+    background-color: #f4f9fd;
+    padding-bottom: 50px;
+}
 /* sectione-hero */
 .sec-hero {
     background: #fff4ef url(img/jumbotron.png) no-repeat 63% 6%;
@@ -120,29 +123,23 @@ nav {
 }
 
 /* sec-banner */
-
-main {
-    background-color: #f4f9fd;
-    padding-bottom: 50px;
-}
 .img-cubo {
     width: 300px;
     display: block;
     margin: auto;
     padding-top: 30px;
 }
-
 .title-banner, .description-text {
     text-align: center;
     color: #33475b;
 }
-
 .title-banner {
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 .description-text {
-    font-size: 16px;
+    width: 61%;
+    margin: auto;
     padding-bottom: 30px;
 }
 
