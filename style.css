@@ -303,10 +303,6 @@ div.img-grid-item ~ h2::after {
     font-size: 20px;
     vertical-align: middle;
 }
-
-/* .margin-negativo {
-    overflow: hidden;
-} */
 .content-grid-item h2, .content-grid-item p {
     color: #fff;
     padding: 7px 0;
@@ -352,10 +348,11 @@ div.img-grid-item ~ h2::after {
     padding-top: 40px;
 }
 .home-customers-text-wrapper {
-    width: 16%;
+    width: 19%;
+    padding-left: 5%;
 }
 .home-customers-logo-grid {
-    width: 60%;
+    width: 52%;
     margin-left: 24%;
 }
 .home-customers-logo-wrapper {
@@ -371,7 +368,7 @@ div.img-grid-item ~ h2::after {
 .home-customers-text-wrapper h2 {
     font-size: 45px;
     color:#33475b;
-    padding-bottom: 10px;
+    padding-bottom: 19px;
 }
 
 /* VII row  */
@@ -394,15 +391,19 @@ div.img-grid-item ~ h2::after {
 }
 .start-growing-text-wrapper h2 {
     color: #33475b;
-    font-size: 32px;
-    padding-bottom: 15px ;
+    font-size: 30px;
+    padding-bottom: 15px;
 }
 .start-growing-text-wrapper p {
     color: #33475b;
     padding: 15px 0;
 }
-.start-growing-text-wrapper p:nth-last-of-type(1) {
+.width-84 ~ p {
     font-size: 10px;
+}
+.width-84 {
+    width: 84%;
+    margin-bottom: 20px;
 }
 
 /* VIII row-footer  */
