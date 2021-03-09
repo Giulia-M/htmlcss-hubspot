@@ -33,12 +33,9 @@ nav {
     line-height: 82px;
     margin: 0 15px;
 }
-.br {
-    border-right: 1px solid #32495b;
-    height: 25px;
-}
 .marg-br {
     padding-right: 30px;
+    border-right: 1px solid #32495b;
 }
 #nav-global-icon:before {
     content: "\01F310";  
