@@ -19,6 +19,7 @@ nav {
 .height-nav {
     height: 82px;
 }
+/* colonna n.1 */
 .nav-main-list, .col-logo {
     width: 30%;
 }
@@ -40,34 +41,12 @@ nav {
 #nav-global-icon:before {
     content: "\01F310";  
 }
-
-
-
-* p{
-    font-size: 13px;
-    color: #33475b;
+/* colonna n.2 */
+.nav-login, .menu{
+    width: 70%;
+    text-align: right;
+    height: 82px;
 }
-
-
-.nav-menu {
-    background-color: #fff;
-}
-
-
-
-
-
-
-* li {
-    list-style: none;
-}
-* a:not(.link-item-nav, .ctas-orange, .ctas-grey, .button-orange) {
-    font-size: 13px;
-    color:#cbd6e2;
-}
-
-
-
 .fa-search {
     display: inline-block;
     vertical-align: middle;
@@ -75,42 +54,41 @@ nav {
 #log-in-button {
     border: 1px solid #fe775a;
     color: #fe775a;
-    padding: 3px 3px;
+    padding: 9px 7px;
     border-radius: 5px;
     display: inline-block;
-    margin: 25px 0;
+    margin: 24px 16px 24px 0;
     vertical-align: middle;
 }
 .button-orange {
     border: 1px solid #fe775a;
     color: #fff;
-    padding: 3px 3px;
+    padding: 9px 7px;
     background-color: #fe775a;
     display: inline-block;
     vertical-align: middle;
     border-radius: 5px;
+    font-size: 13px;
 }
-
-
-
+/* secondo nav */
+.nav-menu {
+    background-color: #fff;
+}
+.col-logo {
+    padding: 24px 10px;
+}
+* p{
+    font-size: 13px;
+    color: #33475b;
+}
+* li {
+    list-style: none;
+}
 * a {
     text-decoration: none;
 }
-
-
-
-
-.nav-login, .menu{
-    width: 70%;
-    text-align: right;
-}
-
-.col-logo {
-    padding-left: 10px;
-}
 .logo-hubs {
     display: inline-block;
-    margin:24px 0;
 }
 
 /* sectione-hero */
@@ -462,7 +440,10 @@ div.img-grid-item ~ h2::after {
     color:#fff;
     margin-bottom: 25px;
 }
-
+* a:not(.link-item-nav, .ctas-orange, .ctas-grey, .button-orange) {
+    font-size: 13px;
+    color:#cbd6e2;
+}
 .cont-ctas-grey {
     margin-top: 20px;
     margin-bottom: 20px;
