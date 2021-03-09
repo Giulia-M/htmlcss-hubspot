@@ -94,7 +94,6 @@ nav {
 /* sectione-hero */
 .sec-hero {
     background: #fff4ef url(img/jumbotron.png) no-repeat 63% 6%;
-    /* height: 600px; */
     padding-top: 40px;
     padding-bottom: 85px;
 }
@@ -106,10 +105,12 @@ nav {
     font-size: 39px;
     color: #33475b;
     padding-bottom: 30px; 
-
 }
 .content-sec-hero p {
     padding: 20px 0;
+}
+.content-sec-hero p:nth-last-of-type(1) {
+    font-size: 10px;
 }
 .prato-verde {
     background-color: #afebe4;
