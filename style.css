@@ -99,11 +99,11 @@ main {
 .sec-hero {
     background: #fff4ef url(img/jumbotron.png) no-repeat 63% 6%;
     padding-top: 40px;
-    padding-bottom: 10%;
+    padding-bottom: 134px;
 }
 .content-sec-hero {
     width:40%;
-    padding-bottom: 130px;
+    padding-bottom: 124px;
 }
 .content-sec-hero h1 {
     font-size: 39px;
