@@ -214,7 +214,9 @@ main {
     margin: 0 10px;
 }
 /* sec-home-product */
-
+.sec-home-product {
+    padding-bottom: 50px;
+}
 .col-opt-marketing, .col-opt-sales, .col-opt-service {
     width: 30.3%;
     padding-bottom: 20px;
